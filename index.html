@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> AniFigures Website </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text"> 🎁 AniFigures Shop </h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Anime Figurines</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Shop Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title"> The Best and Authentic Anime Figurines </h2>
+            <h3 class="subtitle"> Collect merchandizes or Send your friend a gift! </h3>
+            <p class="description">Welcome to our anime paradise, where every merch tells a story and every purchase sparks joy.</p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Order Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/rengokumain.webp" alt="Coffee" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/shopowner.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">At AniFigures Shop, we bring your favorite anime characters to life! As passionate fans of anime ourselves, we understand the joy of owning high-quality figurines that capture the essence of beloved characters. 
+              Whether you’re a collector, a gift-giver, or simply a fan, our shop offers a curated selection of authentic and detailed figures to suit every enthusiast.
+              <br> <br> Join us in celebrating the magic of anime—one figure at a time!
+              </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu section -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title"> Anime Figurines Collection </h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/miku.png" alt="Hot Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name"> Hatsune Miku </h3>
+                <p class="text">The iconic vocaloid in stunning designs.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/minoto.png" alt="Cold Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name"> Maiden Minoto </h3>
+                <p class="text"> The charming huntress from Monster Hunter Rise. </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/kakegurui.png" alt="Refreshment" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name"> Kakegurui </h3>
+                <p class="text"> Stylish characters from the thrilling gambling series. </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/rengoku.png" alt="Special Combos" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name"> Rengoku Kyojuro </h3>
+                <p class="text">The Flame Hashira from Demon Slayer, captured in fiery detail.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/luffy.png" alt="Dessert" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name"> Monkey D. Luffy </h3>
+                <p class="text">Legendary pirate from One Piece in epic poses.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/zoro.png" alt="burger & French Fries" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name"> Roronoa Zoro </h3>
+                <p class="text">The master swordsman and loyal first mate from One Piece.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title"> Shop Feedbacks </h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-1.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Sarah Johnson</h3>
+                  <i class="feedback">"The Hatsune Miku figure I purchased is absolutely stunning! The quality and detail are top-notch. AniFigures Shop never disappoints!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-2.jpg" alt="User" class="user-image" />
+                  <h3 class="name">James Rivera</h3>
+                  <i class="feedback">"I’ve been looking for a Rengoku figure for ages, and I finally found the perfect one here. It looks even better in person!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-3.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Sophia Lee</h3>
+
+                  <i class="feedback">"As a huge One Piece fan, I couldn’t resist buying both Luffy and Zoro figures. They arrived quickly and were packaged securely. Amazing service!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-4.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Michael Cruz</h3>
+
+                  <i class="feedback">"I bought the Minoto figure, and I’m blown away by the craftsmanship. AniFigures Shop has become my go-to for anime figures!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-5.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Rachel Kim</h3>
+
+                  <i class="feedback">"The Kakegurui figure I ordered is incredible! I love the attention to detail, and the customer service was super friendly and helpful."</i>
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="images/gallery-1.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-2.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-3.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-4.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-5.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-6.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>123 Japan Avenue, Anime Market</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@animefigurineshopwebsite.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(123) 456-78909</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Saturday: 10:00 AM - 3:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: Closed</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.AniFigures.com</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2024 AniFigures Shop</p>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>
